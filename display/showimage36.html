@@ -1,0 +1,70 @@
+<html>
+<head>
+
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+	<title>index</title>
+	<link href="index.css" type="text/css" rel="stylesheet">
+	<script src="jquery-2.1.4.min.js" type="text/javascript" ></script>
+	<script src="color.js" type="text/javascript"></script>
+	<script src="changecolor.js" type="text/javascript"></script>
+	<script src="../imageData.js" type="text/javascript"></script>
+	<script src="showimage36.js" type="text/javascript"></script>
+<body>
+	<div id="displayiamge">
+		<canvas id="myCanvas"></canvas>
+	</div>
+	<div id="rightside">
+		<div id="showxybox">
+			<table>
+				<tr>
+					<td>X</td><td><input readonly="true" id="xtext" class="showinput"></td>
+				</tr>
+				<tr>
+					<td>Y</td><td><input readonly="true" id="ytext" class="showinput"></td>
+				</tr>
+				<tr>
+					<td>Code</td><td><input readonly="true" id="ColorCodetext" class="showinput"></td>
+				</tr>
+			</table>
+		</div>
+		<!--
+		<div id="search">
+			<table>
+				<tr>
+					<td>X</td><td><input id="inputx" class="showinput"></td>
+				</tr>
+				<tr>
+					<td>Y</td><td><input id="inputy" class="showinput"></td>
+				</tr>
+				<tr>
+					<td><button type="button" onclick="search()">search</button></td>
+				</tr>
+			</table>
+		</div>
+		-->
+		<div id="palette">
+			<table id="colortable">
+				<thead>
+					<th>  color  </th>
+					<th>  code  </th>
+					<th>   Qty  </th>
+					<th>   weight  </th>
+				</thead>	
+				<tbody>
+					<tr id="colorlinenull" class="colorline" onclick="hideimage(null);">
+						<td  class="colorset"></td>
+						<td >ALL</td>
+						<td id="allcount"></td>
+						<td id="allwight"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
