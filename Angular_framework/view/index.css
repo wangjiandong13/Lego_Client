@@ -1,0 +1,74 @@
+.colorset{
+	background-color: white;
+	width:50px;
+	height: 50px;
+	border:2px solid #d3d3d3;
+}
+.backbtn{
+	width: 100px;
+	height: 50px;
+}
+#palette{
+	width:90%;
+	height: 60%;
+	float:left;
+	margin-top: 20px;
+	background-color: yellow;
+	border:5px solid #d3d3d3;
+	overflow:auto;
+}
+#pagechoose{
+	width:90%;
+	float:left;
+	height: 8%;
+	background-color: yellow;
+	border:5px solid #d3d3d3;
+	overflow:auto;
+}
+#pagechoose table{
+	width:100%;
+	height: 100%;
+	text-align: center;
+}
+#colortable{
+	text-align: center;
+}
+.highlight{
+	background-color: white;
+}
+.showinput{
+	width:80%;
+	float: right;
+}
+#showxybox{
+	width:90%;
+	margin-top: 2%;
+	float:left;
+	height: 20%;
+	background-color: yellow;
+	border:5px solid #d3d3d3;
+}
+#myCanvas{
+	border:1px solid #d3d3d3;
+	height:100%;
+	background-color: grey;
+}
+#displayiamge{
+	height: 100%;
+	width:80%;
+	float:left;
+}
+#search{
+	width:90%;
+	margin-top: 2%;
+	float:left;
+	height: 15%;
+	background-color: yellow;
+	border:5px solid #d3d3d3;
+}
+#rightside{
+	width: 20%;
+    margin-top: 2%;
+    float: left;
+    height: 90%;
+}
